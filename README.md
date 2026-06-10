@@ -6,7 +6,7 @@ Aplikasi ini dibangun untuk memenuhi Tugas Ujian Akhir Semester (UAS) mata kulia
 - **Nama Lengkap:** Mohammad Zaky Abdur Rosyid
 - **NIM:** 240605110006
 - **Program Studi:** Teknik Informatika
-- **Mata Kuliah:** Pemrograman Web
+- **Mata Kuliah:** Pemrograman Web - A
 
 ## 📝 Deskripsi Singkat Aplikasi
 Proyek ini adalah sebuah Sistem Manajemen Blog (CMS) dan Portal Berita Publik yang dibangun menggunakan *framework* Laravel (PHP) dengan mengimplementasikan pola arsitektur MVC (Model-View-Controller). 
