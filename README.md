@@ -23,46 +23,45 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
    Buka terminal/CMD, lalu jalankan perintah berikut:
    ```bash
    git clone [https://github.com/OCHIDEZ/aplikasi-blog--240605110006-.git](https://github.com/OCHIDEZ/aplikasi-blog--240605110006-.git)
+   
 2. **Masuk ke Direktori Proyek**
-
-Bash
-cd aplikasi-blog--240605110006-
-Install Dependensi Composer & NPM
-
-Bash
-composer install
-npm install
-npm run build
-Konfigurasi Environment (.env)
+   ```bash
+   cd aplikasi-blog--240605110006-
+   
+3. **Install Dependensi Composer & NPM**
+   ```bash
+   composer install
+   npm install
+   npm run build
+   
+4. **Konfigurasi Environment (.env)**
 Salin file .env.example menjadi .env:
-
-Bash
-cp .env.example .env
+   ```bash
+   cp .env.example .env
 Buka file .env dan sesuaikan konfigurasi database-nya.
 
-Generate Application Key
-
-Bash
-php artisan key:generate
-Tautkan Storage (Storage Link)
+5. **Generate Application Key**
+   ```bash
+   php artisan key: generate
+   
+6. **Tautkan Storage (Storage Link)**
 Langkah ini wajib dilakukan agar gambar artikel dan foto profil penulis dapat ditampilkan:
-
-Bash
-php artisan storage:link
-Migrasi Database
+    ```bash
+    php artisan storage: link
+    
+7. **Migrasi Database**
 Pastikan Anda sudah membuat database kosong bernama db_blog, lalu jalankan:
-
-Bash
-php artisan migrate
-Jalankan Local Development Server
-
-Bash
-php artisan serve
+   ```bash
+   php artisan migrate
+   
+8. **Jalankan Local Development Server**
+   ```bash
+   php artisan serve
 Buka browser dan akses aplikasi melalui http://127.0.0.1:8000.
 
 🎥 Tautan Video Demonstrasi
 Video demonstrasi yang menampilkan fitur CMS (CRUD) dan Halaman Pengunjung secara lengkap dapat diakses melalui tautan YouTube berikut:
 
-👉 [MASUKKAN TAUTAN VIDEO YOUTUBE KAMU DI SINI]
+👉 [https://youtu.be/WUoiXOrw5Ls]
 
 Dibuat dengan ❤️ menggunakan Laravel & Bootstrap.
