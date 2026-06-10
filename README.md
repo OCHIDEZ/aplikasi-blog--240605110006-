@@ -4,7 +4,7 @@ Aplikasi ini dibangun untuk memenuhi Tugas Ujian Akhir Semester (UAS) mata kulia
 
 ## 👨‍💻 Identitas Mahasiswa
 - **Nama Lengkap:** Mohammad Zaky Abdur Rosyid
-- **NIM:** [Masukkan NIM Kamu Di Sini]
+- **NIM:** [240605110006]
 - **Program Studi:** Teknik Informatika
 - **Mata Kuliah:** Pemrograman Web
 
