@@ -59,7 +59,7 @@ Pastikan Anda sudah membuat database kosong bernama db_blog, lalu jalankan:
    php artisan serve
 Buka browser dan akses aplikasi melalui http://127.0.0.1:8000.
 
-🎥 Tautan Video Demonstrasi
+## 🎥 Tautan Video Demonstrasi
 Video demonstrasi yang menampilkan fitur CMS (CRUD) dan Halaman Pengunjung secara lengkap dapat diakses melalui tautan YouTube berikut:
 
 👉 [https://youtu.be/WUoiXOrw5Ls]
